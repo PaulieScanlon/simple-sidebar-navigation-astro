@@ -1,5 +1,5 @@
 ---
-import Layout from './layout.astro';
+import Layout from './layout.jsx';
 ---
 
 <html lang='en'>
@@ -7,7 +7,7 @@ import Layout from './layout.astro';
     <meta charset='utf-8' />
   </head>
   <body class='prose max-w-none bg-custom-background'>
-    <Layout>
+    <Layout client:only='react'>
       <slot />
     </Layout>
   </body>

@@ -283,6 +283,14 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@builder.io/qwik@^1.2.17":
+  version "1.2.17"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.2.17.tgz#36512db4e86c6fe8b30771b58a6c4fbf856e7af5"
+  integrity sha512-66fGmPHIy/brJqtrUapxckw9EVAh6U3pcjRr1WiqGGjq1cvgJdP88jayMw85XvckEjrF4ymNLOYCmjdlQNzU+Q==
+  dependencies:
+    csstype "^3.1.2"
+    vite "^4.4.11"
+
 "@esbuild/android-arm64@0.18.20":
   version "0.18.20"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.18.20.tgz#984b4f9c8d0377443cc2dfcef266d02244593622"
@@ -555,6 +563,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@qwikdev/astro@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@qwikdev/astro/-/astro-0.1.12.tgz#399ffaab7d3656931e3d40b582cf85d600e1e664"
+  integrity sha512-FQqiB5pLxRf5qqa8iqW1diB+pBhvH3jea6eSLszJtajhzdgUZfX+zCPjPVeMNlfwUgBu2BsZhrcsJvUaAfdwhw==
 
 "@tailwindcss/typography@^0.5.10":
   version "0.5.10"
@@ -1095,6 +1108,11 @@ cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
+csstype@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
+  integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
 debug@2:
   version "2.6.9"
@@ -3643,7 +3661,7 @@ vfile@^6.0.0:
     unist-util-stringify-position "^4.0.0"
     vfile-message "^4.0.0"
 
-vite@^4.4.9:
+vite@^4.4.11, vite@^4.4.9:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.5.0.tgz#ec406295b4167ac3bc23e26f9c8ff559287cff26"
   integrity sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==

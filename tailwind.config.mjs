@@ -9,6 +9,9 @@ export default {
           text: '#cfcfcf',
         },
       },
+      maxWidth: {
+        '8xl': '90rem',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

@@ -12,7 +12,7 @@ const Layout = component$(() => {
                 <span role='img' aria-label="'Rocket" class='mr-1'>
                   🚀
                 </span>
-                Astro
+                AstroQuik
               </a>
               <div
                 class='relative
@@ -67,12 +67,12 @@ const Layout = component$(() => {
               </ul>
             </nav>
           </div>
+          <main class='lg:pl-[12.5rem]'>
+            <div class='mx-auto px-4 lg:px-16 py-8 max-w-none xl:ml-0 xl:mr-[15.5rem]'>
+              Content: <Slot />
+            </div>
+          </main>
         </div>
-        <main class='lg:pl-[12.5rem]'>
-          <div class='mx-auto px-4 lg:px-16 py-8 max-w-none xl:ml-0 xl:mr-[15.5rem]'>
-            Content: <Slot />
-          </div>
-        </main>
       </div>
     </>
   );

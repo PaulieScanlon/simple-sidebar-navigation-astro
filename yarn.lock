@@ -16,19 +16,19 @@
     "@jridgewell/trace-mapping" "^0.3.9"
 
 "@astrojs/compiler@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.3.0.tgz#c56bc982f9640e0a9e2bcb8756dd362baee022bb"
-  integrity sha512-pxYRAaRdMS6XUll8lbFM+Lr0DI1HKIDT+VpiC+S+9di5H/nmm3znZOgdMlLiMxADot+56eps+M1BvtKfQremXA==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@astrojs/compiler/-/compiler-2.3.2.tgz#78001a4a86c3f2cf4bc80db46b13f6188fbb01da"
+  integrity sha512-jkY7bCVxl27KeZsSxIZ+pqACe+g8VQUdTiSJRj/sXYdIaZlW3ZMq4qF2M17P/oDt3LBq0zLNwQr4Cb7fSpRGxQ==
 
 "@astrojs/internal-helpers@0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@astrojs/internal-helpers/-/internal-helpers-0.2.1.tgz#4e2e6aabaa9819f17119aa10f413c4d6122c94cf"
   integrity sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==
 
-"@astrojs/markdown-remark@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-3.4.0.tgz#fc15c737d41d6689223790323cb373b0fa673a7b"
-  integrity sha512-uzLSKBQ4e70aH8gEbBHZ2pnv/KOJKB3WrXFBOF0U5Uwjcr2LNWeIBLjPRQjA4tbtteELh84YPBHny21mhvBGVA==
+"@astrojs/markdown-remark@3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@astrojs/markdown-remark/-/markdown-remark-3.5.0.tgz#548069043bf574cf3db95d0ac0ea251a7ae99a3a"
+  integrity sha512-q7vdIqzYhxpsfghg2YmkmSXCfp4w7lBTYP+SSHw89wVhC5Riltr3u8w2otBRxNLSByNi+ht/gGkFC23Shetytw==
   dependencies:
     "@astrojs/prism" "^3.0.0"
     github-slugger "^2.0.0"
@@ -284,9 +284,9 @@
     to-fast-properties "^2.0.0"
 
 "@builder.io/qwik@^1.2.17":
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.2.17.tgz#36512db4e86c6fe8b30771b58a6c4fbf856e7af5"
-  integrity sha512-66fGmPHIy/brJqtrUapxckw9EVAh6U3pcjRr1WiqGGjq1cvgJdP88jayMw85XvckEjrF4ymNLOYCmjdlQNzU+Q==
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-1.2.18.tgz#2d80847f8e88d3cd7ea6010d51ed5e4c6fc24fc0"
+  integrity sha512-YfkpRI8IoJ6OkIlMoJ4jdjbotZSmBfMtf9ibxbf9vZLgKVLkSbSb4hgpA+NMWwQb/ojgn/6YJ49MwaZP81sm4Q==
   dependencies:
     csstype "^3.1.2"
     vite "^4.4.11"
@@ -756,13 +756,13 @@ array-iterate@^2.0.0:
   integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
 astro@^3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-3.5.3.tgz#bf3166ea79748369b149ee163fb3ea41768d4c23"
-  integrity sha512-08ya96yvQLdZjwYYpylzDTUGcyuA+Kw9zIT2RHfL7VzXtLTL1ZxhQjSo6CiTBH8Tcrdam88Fez+Q1awwKKajGw==
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-3.5.5.tgz#7c1878cbe84da64014ce0aacc6a3fea5b239bf7f"
+  integrity sha512-zJDZhO8XheXzpqkZgBXlP8e3j8psf0A21fh5Bq4HNR6gOmgOnM62Pok3O2ClbGygabfl2Preeun0pBRFn5+y0A==
   dependencies:
     "@astrojs/compiler" "^2.3.0"
     "@astrojs/internal-helpers" "0.2.1"
-    "@astrojs/markdown-remark" "3.4.0"
+    "@astrojs/markdown-remark" "3.5.0"
     "@astrojs/telemetry" "3.0.4"
     "@babel/core" "^7.22.10"
     "@babel/generator" "^7.22.10"
@@ -942,9 +942,9 @@ camelcase@^7.0.1:
   integrity sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==
 
 caniuse-lite@^1.0.30001538, caniuse-lite@^1.0.30001541:
-  version "1.0.30001561"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001561.tgz#752f21f56f96f1b1a52e97aae98c57c562d5d9da"
-  integrity sha512-NTt0DNoKe958Q0BE0j0c1V9jbUzhBxHIEJy7asmGrpE0yG63KTV7PLHPnK2E1O9RsQrQ081I3NLuXGS6zht3cw==
+  version "1.0.30001562"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001562.tgz#9d16c5fd7e9c592c4cd5e304bc0f75b0008b2759"
+  integrity sha512-kfte3Hym//51EdX4239i+Rmp20EsLIYGdPkERegTgU19hQWCRhsRFGKHTliUlsry53tv17K7n077Kqa0WJU4ng==
 
 ccount@^2.0.0:
   version "2.0.1"
@@ -1209,9 +1209,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.581"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.581.tgz#23b684c67bf56d4284e95598c05a5d266653b6d8"
-  integrity sha512-6uhqWBIapTJUxgPTCHH9sqdbxIMPt7oXl0VcAL1kOtlU6aECdcMncCrX5Z7sHQ/invtrC9jUQUef7+HhO8vVFw==
+  version "1.4.586"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.586.tgz#68683163ed52a111213e2482ff847e76a5c6e891"
+  integrity sha512-qMa+E6yf1fNQbg3G66pHLXeJUP5CCCzNat1VPczOZOqgI2w4u+8y9sQnswMdGs5m4C1rOePq37EVBr/nsPQY7w==
 
 emoji-regex@^10.2.1:
   version "10.3.0"
@@ -3188,9 +3188,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 shikiji@^0.6.8:
-  version "0.6.12"
-  resolved "https://registry.yarnpkg.com/shikiji/-/shikiji-0.6.12.tgz#2cd28f32380337ef2117cdd5328f868a31e6c416"
-  integrity sha512-sm7Wg8P4w6T3quDAZQxvk0P02o2hheIFEdbaEuGOhGnqLDjVsP28GDUVPdgbacOIc1auapNVNCVEykhPploLyg==
+  version "0.6.13"
+  resolved "https://registry.yarnpkg.com/shikiji/-/shikiji-0.6.13.tgz#c021bb8c2fabbc452bcf7e7030474cbe8fe3aadb"
+  integrity sha512-4T7X39csvhT0p7GDnq9vysWddf2b6BeioiN3Ymhnt3xcy9tXmDcnsEFVxX18Z4YcQgEE/w48dLJ4pPPUcG9KkA==
   dependencies:
     hast-util-to-html "^9.0.0"
 
@@ -3260,9 +3260,9 @@ stream-parser@~0.3.1:
     debug "2"
 
 streamx@^2.15.0:
-  version "2.15.4"
-  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.4.tgz#497b8102d076ae12b43c456e0bb16940d1ba0999"
-  integrity sha512-uSXKl88bibiUCQ1eMpItRljCzDENcDx18rsfDmV79r0e/ThfrAwxG4Y2FarQZ2G4/21xcOKmFFd1Hue+ZIDwHw==
+  version "2.15.5"
+  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.15.5.tgz#87bcef4dc7f0b883f9359671203344a4e004c7f1"
+  integrity sha512-9thPGMkKC2GctCzyCUjME3yR03x2xNo0GPKGkRw2UMYN+gqWa9uqpyNWhmsNCutU5zHmkUum0LsCRQTXUgUCAg==
   dependencies:
     fast-fifo "^1.1.0"
     queue-tick "^1.0.1"

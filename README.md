@@ -8,13 +8,13 @@ There are three branches in this repo.
 
 - [main](https://github.com/PaulieScanlon/simple-sidebar-navigation-astro). Uses Vanilla JavaScript
 - [feat/add-react](https://github.com/PaulieScanlon/simple-sidebar-navigation-astro/tree/feat/add-react). Uses React
-- [feat/add-quik](https://github.com/PaulieScanlon/simple-sidebar-navigation-astro/tree/feat/add-quik). Uses Quik
+- [feat/add-qwik](https://github.com/PaulieScanlon/simple-sidebar-navigation-astro/tree/feat/add-qwik). Uses Qwik
 
 ## Getting Started
 
 ### Dependencies
 
-Each branch has it's own set of dependencies. Astro is used by all three, but React and Quik are required on their respective branches
+Each branch has it's own set of dependencies. Astro is used by all three, but React and Qwik are required on their respective branches
 
 ### Installing
 

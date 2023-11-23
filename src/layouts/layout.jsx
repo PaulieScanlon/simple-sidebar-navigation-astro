@@ -18,7 +18,7 @@ const Layout = component$(() => {
                 <span role='img' aria-label="'Rocket" class='mr-1'>
                   🚀
                 </span>
-                AstroQuik
+                AstroQwik
               </a>
               <div
                 class='relative
